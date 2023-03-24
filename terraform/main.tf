@@ -14,7 +14,7 @@ provider "azurerm" {
 }
 
 module "resource_group" {
-  source =    "./modules/resource-group"
+  source =   "./modules/resource-group"
 }
 
 module "storage_account" {
